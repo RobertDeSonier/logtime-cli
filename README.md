@@ -11,6 +11,11 @@ Meant to track what you just finished working on, and deliver readable text outp
 pip install logtime-cli
 ```
 
+## Help
+```
+lt --help
+```
+
 ## Usage
 To log time:
 ```
@@ -20,6 +25,11 @@ lt what I just finished doing
 To open your daily log file:
 ```
 lt
+```
+To open a previous daily log file:
+```
+lt -p
+lt -p 2 //opens daily log from 2 days ago
 ```
 
 To log time with an end date:
